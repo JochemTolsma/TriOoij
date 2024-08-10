@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Triatlon Bisonbaai</title>
+
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/clipboard-1.7.1/clipboard.min.js"></script>
+<link href="site_libs/primer-tooltips-1.4.0/build.css" rel="stylesheet" />
+<link href="site_libs/klippy-0.0.0.9500/css/klippy.min.css" rel="stylesheet" />
+<script src="site_libs/klippy-0.0.0.9500/js/klippy.min.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="shortcut icon" href="favicon.ico" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="tweaks.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Thuis</a>
+</li>
+<li>
+  <a href="tri.html">TRI</a>
+</li>
+<li>
+  <a href="rbr.html">RBR</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.tvcerberus.nl/">
+    <span class="fa fa-link"></span>
+     
+    Cerberus
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+
+<img src="mm3b.png" alt="gebouw">
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Triatlon Bisonbaai</h1>
+
+</div>
+
+
+<!--set global settings-->
+<!--copy to clipboard-->
+<script>
+  addKlippy('left', 'top', 'auto', '1', 'Copy code', 'Copied!');
+</script>
+<script>
+  addClassKlippyTo("pre.r, pre.markdown");
+  addKlippy('right', 'top', 'auto', '1', 'Copy code', 'Copied!');
+</script>
+<!---custom functions -->
+<div id="inleiding" class="section level1">
+<h1>INLEIDING</h1>
+<p>Hoi clubgenoten. Wees welkom in mijn achtertuin.</p>
+<p>Praktische info:</p>
+<ul>
+<li>Wanneer: zondag 1 september 2024</li>
+<li>Tijd: start om 8:00<br />
+</li>
+<li>Waar
+<ul>
+<li>Start: Verzamelen bij de de Bisonbaai (oostkant, tegenover <a href="https://www.oortjeshekken.nl/">Oortjeshekken</a>)<br />
+</li>
+<li>Finish: <a href="https://www.google.com/maps/place/Langstraat+20,+6576+JP+Ooij/@51.866977,5.9160638,17z/data=!3m1!4b1!4m5!3m4!1s0x47c709e6a8449e33:0x124817d9e8052d6a!8m2!3d51.8669738!4d5.9205485">Langstraat 20, Ooij</a>.<br />
+</li>
+</ul></li>
+<li>Parkeren: grasveld bij Oorjeshekken, aan de dijk, of in de Langstraat op het grasveld.<br />
+</li>
+<li>Volgorde:
+<ol style="list-style-type: decimal">
+<li>Je zet je loopspullen klaar in T2: oprit Langstraat 20.<br />
+</li>
+<li>Je geeft evt. een extra bidon af voor de drankpost tijdens het fietsen.<br />
+</li>
+<li>Je parkeert indien nodig je auto.<br />
+</li>
+<li>Je zet je fiets klaar in T1. Je vergeet niet een kratje neer te zetten voor je zwemspullen.<br />
+</li>
+<li>Je zorgt dat je om 8.00 klaar ligt in het water ter hoogte van het bruggetje voor de start.</li>
+</ol></li>
+</ul>
+<hr />
+</div>
+<div id="zwemmen" class="section level1">
+<h1>ZWEMMEN</h1>
+<p>Zie onder voor route.</p>
+<ul>
+<li>We starten in het water bij de brug. Je kan dus even inzwemmen.<br />
+</li>
+<li>We zwemmen naar de enige boom aan de overkant.<br />
+</li>
+<li>We lopen om de boom. Dus een verplichte landgang.<br />
+</li>
+<li>Dan zwemmen we terug naar de overkant. Bij de vlag/parasol komen we uit het water.</li>
+</ul>
+<p>Volgens afstandmeten is het 2km.</p>
+<iframe src="https://afstandmeten.nl/index.php?id=2644511&amp;key=MR" width="672" height="600px" data-external="1">
+</iframe>
+<p><strong>Figuur 1</strong> Zwemroute.</p>
+<p>Gemaakt met afstandmeten.nl. Zie <a href="https://afstandmeten.nl/index.php?id=2644511&amp;key=MR">hier</a> voor originele wegpagina.</p>
+<p>Zwemspullen in kratten bij fietsen deponeren. Mijn vrouw en kids en evt. andere vrijwilligers zorgen dat de spullen naar mijn huis worden vervoerd.</p>
+<p>De kwaliteit van het zwemwater in de Bisonbaai wil nog wel eens te wensen over laten. Vooralsnog is alles oke. Zie <a href="https://www.zwemwater.nl/?extent=190543.68499999997,426619.934,194320.32499999998,431357.534&amp;baselayer=Topo">hier</a> voor de laatste stand van zaken.</p>
+<hr />
+</div>
+<div id="t1" class="section level1">
+<h1>T1</h1>
+<p>Je fiets zet je bij de uitgang van de Bisonbaai (net zoals bij de Trion triatlon). Je zwemspullen gooi je netjes in een klein kratje. Wij zorgen dat deze kratjes bij de finish terecht komen.</p>
+<hr />
+</div>
+<div id="fietsen" class="section level1">
+<h1>FIETSEN</h1>
+<p>We fietsen een 8-tje door de Ooij. We rijden twee ronden van 22km. Let op, bij warm weer kan het druk zijn. Daarom starten we al om 8 uur. We komen elkaar hopelijk af en toe tegen bij het fietsen. Er zitten twee linker afslagen in. Verder is alles rechtsaf.</p>
+<p>Drie aandachtspunten:<br />
+1. Na Oortjeshekken (weer richting Nijmegen), niet de eerste, maar de <a href="https://www.google.com/maps/place/Kruisstraat,+6576+JS+Ooij/@51.8639116,5.9262899,17z/data=!4m5!3m4!1s0x47c709ee4f149107:0xb95d830ce379992b!8m2!3d51.858548!4d5.9243051">tweede linksaf</a> slaan, kruispunt Erlecomsedam/Kruisstraat. Let op, kan link bochtje zijn. Dus verplicht stapvoets rijden deze 50 meter. Hopelijk staat hier een vrijwilliger van onze mooie club.<br />
+2. Ik veeg de bochten van te voren, maar bij boerderij de Plak even opletten. We gaan van de <a href="https://www.google.com/maps/place/Vierdaagse+Camping+en+Boerderij+Automaat+De+Plak/@51.8539564,5.916789,17z/data=!3m1!4b1!4m5!3m4!1s0x47c7090aa5650a5d:0x3488c78c7829311f!8m2!3d51.8539531!4d5.9189777">Kruisstraat naar de Kouwedijk</a>.<br />
+3. Sinds een jaar heeft verkeer van rechts voorrang. Vooral als je vanaf het gemaal weer richting de bisonbaar rijdt, moet je even goed opletten bij het kruispunt met de <a href="https://www.google.com/maps/place/51%C2%B051&#39;31.2%22N+5%C2%B054&#39;05.2%22E/@51.8586793,5.8988761,17z/data=!3m1!4b1!4m4!3m3!8m2!3d51.858676!4d5.901451?entry=ttu">Hezelstraat</a>. Hopelijk staat hier een vrijwilliger van onze mooie club.</p>
+<p>Er is tijdens het fietsen één drankpost na de eerste ronde (22km) op de Ooijse banddijk ter hoogte van <a href="https://www.google.com/maps/place/Langstraat+20,+6576+JP+Ooij/@51.866977,5.9160638,17z/data=!4m5!3m4!1s0x47c709e6a8449e33:0x124817d9e8052d6a!8m2!3d51.8669738!4d5.9205485">mijn huis</a>. Je kan daar je bidons wisselen. Als je hiervan gebruik wilt maken, moet je natuurlijk wel van te voren een bidon bij mij inleveren.</p>
+<iframe src="https://afstandmeten.nl/index.php?id=2681676" width="672" height="600px" data-external="1">
+</iframe>
+<p><strong>Figuur 2</strong> Fietsroute.</p>
+<p>Gemaakt met afstandmeten.nl. Zie <a href="https://afstandmeten.nl/index.php?id=2681676">hier</a> voor originele wegpagina.</p>
+<p>Zie hier voor de <a href="https://www.strava.com/routes/27436880">route op Strava</a>.</p>
+<hr />
+</div>
+<div id="t2" class="section level1">
+<h1>T2</h1>
+<ul>
+<li>Je fiets zet je op mijn oprit (tegen garage of heg). Wij zorgen dat de fiets dan netjes in de achtertuin of in de garage gestald wordt.<br />
+</li>
+<li>Je zet op de oprit je loopspullen klaar.</li>
+</ul>
+<hr />
+</div>
+<div id="lopen" class="section level1">
+<h1>LOPEN</h1>
+<p>We lopen twee rondjes van 4.9km.</p>
+<ul>
+<li>Vanaf mijn huis weer richting Oortjeshekken, dan steeds de eerste rechts. Je loopt via de langstraat terug.<br />
+</li>
+<li>Er is één drankpost, na het eerste rondje.</li>
+</ul>
+<iframe src="https://afstandmeten.nl/index.php?id=3283361" width="672" height="600px" data-external="1">
+</iframe>
+<p><strong>Figuur 3</strong> Looproute.</p>
+<p>Gemaakt met afstandmeten.nl. Zie <a href="https://afstandmeten.nl/index.php?id=3283361">hier</a> voor originele wegpagina.</p>
+<hr />
+</div>
+<div id="finish" class="section level1">
+<h1>FINISH</h1>
+<p>Je kan in mijn tuin afdouchen onder de tuinslang.</p>
+<p>Er zal genoeg te eten en te drinken zijn.</p>
+<hr />
+</div>
+<div id="vrijwilligers-benodigheden" class="section level1">
+<h1>Vrijwilligers / benodigheden</h1>
+<ul>
+<li>Tijdwaarneming: Wat mij betreft niet nodig. We klokken alles zelf en je noteert meteen na de finish je tijd.<br />
+</li>
+<li>Parasol / windvaan cerberus als richtlijn voor het zwemmen: <strong>nog regelen</strong>.<br />
+</li>
+<li>Bewaking T1 en vervoer zwemspullen van T1 naar Finish: <strong>nog regelen</strong> (wrs laat ik mijn kids alles in mijn auto zetten).<br />
+</li>
+<li>Verkeersregelaars kruispunt Erlecomsedam/Kruisstraat en Ooijse Banddijk/Hezelstraat: <strong>nog regelen</strong>.<br />
+</li>
+<li>Verplaatsen fietsen van oprit naar tuin/garage: is geregeld.</li>
+<li>Drankpost tijdens lopen bemannen: is geregeld.</li>
+</ul>
+<p>Dus volgens mij hebben we twee vrijwilligers vanuit de club nodig om de kruispunten te bemannen. Indien we één vrijwilliger tekort komen, zal ik zelf een kruispunt bemannen.</p>
+<hr />
+</div>
+
+<style>
+  .center {
+    text-align: center;
+    color: red;
+  }
+</style>
+  
+  <hr>
+  
+    
+ <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+ 
+ <p>
+  <i class="fa fa-envelope-o" aria-hidden="true"></i>: <a href="mailto:j.tolsma@jtolsma.nl">j.tolsma@jtolsma.nl</a>
+ </p>
+
+
+<p><i class="fa fa-mobile" aria-hidden="true"></i>: 0618801681 </p>
+
+
+
+<p class="center">  <img src="cerberus.png" alt="Radboud Universiteit" width="200">  </p>
+
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

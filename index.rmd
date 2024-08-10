@@ -1,0 +1,62 @@
+---
+title: "Welkom"
+---
+
+```{=html}
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+```
+```{=html}
+<!---
+https://stackoverflow.com/questions/30110377/saving-leaflet-output-as-html
+--->
+```
+```{r, globalsettings, echo=FALSE, warning=FALSE, message=FALSE, results='hide'}
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=100),tidy=TRUE, warning = FALSE, message = FALSE,comment = "#>", cache=TRUE, class.source=c("test"), class.output=c("test2"), cache.lazy = FALSE)
+options(width = 100) 
+rgl::setupKnitr()
+
+colorize <- function(x, color) {sprintf("<span style='color: %s;'>%s</span>", color, x) }
+
+```
+
+```{r klippy, echo=FALSE, include=TRUE, message=FALSE}
+# install.packages("remotes")
+#remotes::install_github("rlesur/klippy")
+klippy::klippy(position = c('top', 'right'))
+#klippy::klippy(color = 'darkred')
+#klippy::klippy(tooltip_message = 'Click to copy', tooltip_success = 'Done')
+```
+
+------------------------------------------------------------------------
+
+Laatste update: `r format(Sys.Date(), "%d-%m-%Y")`
+
+Voor vragen kan je mailen naar: [j.tolsma\@jtolsma.nl](mailto:j.tolsma@jtolsma.nl){.email}
+
+------------------------------------------------------------------------
+
+Beste clubgenootjes,
+
+Op zondag 1 september 2024 vindt de 3e editie van **TriOoij** (aka Triatlon Bisonbaai) plaats.
+
+Graag inschrijven via de website van cerberus (wel ff inloggen) [inschrijven](https://tvcerberus.nl){target="_blank"}!
+
+------------------------------------------------------------------------
+
+## TRI of RBR?
+
+De kwaliteit van het zwemwater in de Bisonbaai wil nog wel eens te wensen over laten. Vooralsnog is alles oke. Zie [hier](https://www.zwemwater.nl/?extent=190543.68499999997,426619.934,194320.32499999998,431357.534&baselayer=Topo) voor de laatste stand van zaken.
+
+Maar we gaan er dus vanuit dat het een [triatlon](https://www.jtolsma.nl/TriOoij/tri) wordt en niet een [Run-Bike-Run](https://www.jtolsma.nl/TriOoij/rbr).
+
+---  
+
+## Wil je helpen? 
+
+De dag van te voren, veeg ik alle bochten, hang ik lintjes op en pijl de route uit. Dat kan allemaal alleen, maar samen is wel gezelliger en werkt wat sneller.  
+Op de dag zelf, zou het fijn zijn als er op twee kruispunten een vrijwilliger staat om te waarschuwen als er verkeer van rechts komt. Wie-o-wie??
+Na het event moeten de lintjes en pijltjes weer opgeruimd worden. 
+
+---  
+

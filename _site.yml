@@ -1,0 +1,37 @@
+output_dir: "docs"
+exclude: 
+  - "local"
+  - "rawdata"
+  - "journals_discipline"
+  - "data"
+  - "toy_data"
+  - "journals_discipline"
+  - "manuscript"
+  - "KLAD"
+  - "LICENSE"
+bibliography: references.bib
+navbar:
+  left:
+  - text: "Thuis"
+    href: index.html
+  - text: "TRI"
+    href: tri.html
+  - text: "RBR"
+    href: rbr.html
+  right:
+  - icon: fa fa-link
+    text: Cerberus
+    href: https://www.tvcerberus.nl/
+
+output:
+  bookdown::html_document2:
+    theme: journal
+    highlight: default
+    toc:  false
+    toc_float: false
+    number_sections: false
+    css: tweaks.css
+    includes:
+      after_body: footer.html
+      before_body: before.html
+      in_header: header.html

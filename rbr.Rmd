@@ -1,0 +1,178 @@
+---
+title: "RUN-BIKE-RUN Bisonbaai"
+---
+
+<!--set global settings--> 
+```{r, globalsettings, echo=FALSE, warning=FALSE}
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=100),tidy=TRUE, warning = FALSE, message = FALSE, cache=TRUE, attr.source = ".numberLines")
+options(width = 100)
+```
+
+<!--copy to clipboard-->
+```{r klippy, echo=FALSE, include=TRUE}
+require(klippy)
+klippy::klippy('')
+klippy::klippy(position = c('top', 'right'))
+#klippy::klippy(color = 'darkred')
+#klippy::klippy(tooltip_message = 'Click to copy', tooltip_success = 'Done')
+```
+
+<!--load required functions -->
+```{r start, echo=FALSE, message=FALSE, results='hide'}
+rm(list=ls())
+
+require(foreign) || install.packages("foreign"); library(foreign)
+require(installr) || install.packages("installr"); library(foreign)
+require(mice) || install.packages("mice"); library(mice)
+require(klippy) || install.packages("klippy"); library(klippy)
+require(bibtex) || install.packages("bibtex"); library(bibtex)
+
+
+
+#updateR()
+
+```
+
+<!---custom functions -->
+```{r, eval=TRUE, echo=FALSE}
+#biblio <- bibtex::read.bib("bibliography.bib")
+#ref <- function(x){capture.output(print(biblio[x]))}
+
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+            x)
+  } else x
+}
+```
+
+
+---  
+
+<!---
+`r colorize("UPDATE", "red")`: Er is een waarschuwing afgegeven voor blauwalg in de Bisonbaai (zie [hier](https://waterkaart.net/gids/zwemplek.php?naam=De%20Bisonbaai). De triatlon wordt omgezet naar een `r colorize("RUN-BIKE-RUN", "red")`. 
+--->
+
+`r colorize("Vooralsnog is er **geen waarschuwing** afgegeven voor blauwalg in de Bisonbaai (zie [hier](https://waterkaart.net/gids/zwemplek.php?naam=De%20Bisonbaai)). Dus gaan triatlonnen en niet rubbikerunnen.", "red")` 
+
+---
+
+
+# INLEIDING
+
+Hoi clubgenoten. Wees welkom in mijn achtertuin. 
+
+Praktische info:  
+
+* Wanneer: zondag 1 september 2024
+* Tijd: start om 8:00  
+* Waar  
+    - Start: Verzamelen bij de de Bisonbaai (oostkant, tegenover [Oortjeshekken](https://www.oortjeshekken.nl/))  
+    - Finish: [Langstraat 20, Ooij](https://www.google.com/maps/place/Langstraat+20,+6576+JP+Ooij/@51.866977,5.9160638,17z/data=!3m1!4b1!4m5!3m4!1s0x47c709e6a8449e33:0x124817d9e8052d6a!8m2!3d51.8669738!4d5.9205485).  
+* Parkeren: grasveld bij Oorjeshekken, aan de dijk, of in de Langstraat op het grasveld.  
+* Volgorde: 
+    1. Je zet je fietspullen klaar in de wisselzone: oprit Langstraat 20.  
+    2. Je geeft evt. een extra bidon af voor de drankpost tijdens het fietsen.  
+    3. Je parkeert indien nodig je auto.  
+    4. Je zorgt dat je om 8.00 klaar staat voor de start van RUN 1.  
+
+
+---  
+
+# RUN 1
+
+Zie onder voor route. 
+
+* We starten bij de fietsparkeerplaats bij de Bisonbaai.    
+* We lopen linksom.   
+* Volg de lintjes. (Of je volgt mij!)  
+* De afstand is 2.6km.  
+
+```{r run1, echo=FALSE}
+knitr::include_url('https://afstandmeten.nl/index.php?id=3308078&key=MR9RWqrnCzh9M', height='600px')
+
+```
+**Figuur 1** RUN 1. 
+
+Gemaakt met afstandmeten.nl. Zie [hier](https://afstandmeten.nl/index.php?id=3308078&key=MR9RWqrnCzh9M) voor originele wegpagina. 
+
+
+
+---  
+
+
+# T1  
+
+Je fiets zet je bij mij in de straat in de wisselzone. 
+
+---  
+
+
+# BIKE
+
+We fietsen een 8-tje door de Ooij. We rijden twee ronden van 22km. Let op, bij warm weer kan het druk zijn. Daarom starten we al om 8 uur. We komen elkaar hopelijk af en toe tegen bij het fietsen. Er zitten twee linker afslagen in. Verder is alles rechtsaf. 
+
+Drie aandachtspunten:  
+1. Na Oortjeshekken (weer richting Nijmegen), niet de eerste, maar de [tweede linksaf](https://www.google.com/maps/place/Kruisstraat,+6576+JS+Ooij/@51.8639116,5.9262899,17z/data=!4m5!3m4!1s0x47c709ee4f149107:0xb95d830ce379992b!8m2!3d51.858548!4d5.9243051) slaan, kruispunt Erlecomsedam/Kruisstraat. Let op, kan link bochtje zijn. Dus verplicht stapvoets rijden deze 50 meter. Hopelijk staat hier een vrijwilliger van onze mooie club.    
+2. Ik veeg de bochten van te voren, maar bij boerderij de Plak even opletten. We gaan van de [Kruisstraat naar de Kouwedijk](https://www.google.com/maps/place/Vierdaagse+Camping+en+Boerderij+Automaat+De+Plak/@51.8539564,5.916789,17z/data=!3m1!4b1!4m5!3m4!1s0x47c7090aa5650a5d:0x3488c78c7829311f!8m2!3d51.8539531!4d5.9189777).  
+3. Sinds een jaar heeft verkeer van rechts voorrang. Vooral als je vanaf het gemaal weer richting de bisonbaar rijdt, moet je even goed opletten bij het kruispunt met de [Hezelstraat](https://www.google.com/maps/place/51%C2%B051'31.2%22N+5%C2%B054'05.2%22E/@51.8586793,5.8988761,17z/data=!3m1!4b1!4m4!3m3!8m2!3d51.858676!4d5.901451?entry=ttu). Hopelijk staat hier een vrijwilliger van onze mooie club. 
+
+
+Er is in één drankpost na de eerste ronde (22km) op de Ooijse banddijk ter hoogte van [mijn huis](https://www.google.com/maps/place/Langstraat+20,+6576+JP+Ooij/@51.866977,5.9160638,17z/data=!4m5!3m4!1s0x47c709e6a8449e33:0x124817d9e8052d6a!8m2!3d51.8669738!4d5.9205485). Je kan daar je bidons wisselen. Als je hiervan gebruik wilt maken, moet je natuurlijk wel van te voren een bidon bij mij inleveren. 
+
+```{r Fietsen Afstandmeten , echo=FALSE}
+knitr::include_url('https://afstandmeten.nl/index.php?id=2681676', height='600px')
+
+```
+**Figuur 2** Fietsroute. 
+
+Gemaakt met afstandmeten.nl. Zie [hier](https://afstandmeten.nl/index.php?id=2681676) voor originele wegpagina. 
+
+
+Zie hier voor de [route op Strava](https://www.strava.com/routes/27436880).  
+
+---  
+
+# T2  
+
+- Je fiets zet je op de zelfde plek terug in de wisselzone. 
+
+---  
+
+
+# RUN 2
+
+We lopen twee rondjes van 4.9km.  
+
+- Vanaf mijn huis weer richting Oortjeshekken, dan steeds de eerste rechts. Je loopt via de Langstraat terug. Dus niet de dijk blijven volgen!  
+- Er is één drankpost, na het eerste rondje. 
+
+
+```{r Lopen Afstandmeten , echo=FALSE}
+knitr::include_url('https://afstandmeten.nl/index.php?id=3283361', height='600px')
+
+```
+**Figuur 3** Looproute. 
+
+Gemaakt met afstandmeten.nl. Zie [hier](https://afstandmeten.nl/index.php?id=3283361) voor originele wegpagina. 
+
+
+---  
+
+
+ 
+# FINISH
+
+Je kan in mijn tuin afdouchen onder de tuinslang.   
+
+
+Er zal genoeg te eten en te drinken zijn. 
+
+---  
+
+
+
+  
