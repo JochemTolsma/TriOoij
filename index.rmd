@@ -40,7 +40,7 @@ Beste clubgenootjes,
 
 Op zondag 1 september 2024 vindt de 3e editie van **TriOoij** (aka Triatlon Bisonbaai) plaats.
 
-Graag inschrijven via de website van cerberus (wel ff inloggen) [inschrijven](https://tvcerberus.nl){target="_blank"}!
+Graag inschrijven via de [website van cerberus][inschrijven](https://tvcerberus.nl){target="_blank"} (wel ff inloggen)!
 
 ------------------------------------------------------------------------
 
@@ -48,7 +48,7 @@ Graag inschrijven via de website van cerberus (wel ff inloggen) [inschrijven](ht
 
 De kwaliteit van het zwemwater in de Bisonbaai wil nog wel eens te wensen over laten. Vooralsnog is alles oke. Zie [hier](https://www.zwemwater.nl/?extent=190543.68499999997,426619.934,194320.32499999998,431357.534&baselayer=Topo) voor de laatste stand van zaken.
 
-Maar we gaan er dus vanuit dat het een [triatlon](https://www.jtolsma.nl/TriOoij/tri) wordt en niet een [Run-Bike-Run](https://www.jtolsma.nl/TriOoij/rbr).
+Maar we gaan er dus vanuit dat het een [triatlon](https://jochemtolsma.github.io/TriOoij/tri.html) wordt en niet een [Run-Bike-Run](https://jochemtolsma.github.io/TriOoij/rbr.html).
 
 ---  
 
