@@ -56,7 +56,7 @@ colorize <- function(x, color) {
 `r colorize("UPDATE", "red")`: Er is een waarschuwing afgegeven voor blauwalg in de Bisonbaai (zie [hier](https://waterkaart.net/gids/zwemplek.php?naam=De%20Bisonbaai). De triatlon wordt omgezet naar een `r colorize("RUN-BIKE-RUN", "red")`. 
 --->
 
-`r colorize("Vooralsnog is er **geen waarschuwing** afgegeven voor blauwalg in de Bisonbaai (zie [hier](https://waterkaart.net/gids/zwemplek.php?naam=De%20Bisonbaai)). Dus gaan triatlonnen en niet rubbikerunnen.", "red")` 
+`r colorize("Vooralsnog is er **geen waarschuwing** afgegeven voor blauwalg in de Bisonbaai (zie [hier](https://waterkaart.net/gids/zwemplek.php?naam=De%20Bisonbaai)). Dus we gaan triatlonnen en niet runbikerunnen.", "red")` 
 
 ---
 
